@@ -1,0 +1,6 @@
+spring:
+ application:
+  name: mailcore-service
+kafka:
+ bootstrap-servers: localhost:9092
+ topic: mailing-kafka-topic 

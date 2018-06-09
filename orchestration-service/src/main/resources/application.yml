@@ -1,0 +1,5 @@
+spring:
+ autoconfigure:
+  exclude: org.springframework.cloud.netflix.servo.ServoMetricsAutoConfiguration
+ application:
+  name: orchestration-service
